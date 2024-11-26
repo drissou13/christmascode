@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Code PIN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu de Code PIN</h1>
+        <div class="pin-inputs">
+            <input type="password" maxlength="1" class="pin" />
+            <input type="password" maxlength="1" class="pin" />
+            <input type="password" maxlength="1" class="pin" />
+            <input type="password" maxlength="1" class="pin" />
+        </div>
+        <button onclick="checkPIN()">Vérifier</button>
+        <p id="message"></p>
+        <div id="hintContainer"></div> <!-- Conteneur pour les indices -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
